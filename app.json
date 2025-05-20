@@ -1,0 +1,162 @@
+{
+  "name": "سورس الموسوي",
+  "description": "ميوزك الموسوي .",
+  "logo": "https://envs.sh/Zow.jpg",
+  "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "MusicBot",
+    "telegram-bot",
+    "pyrogram"
+  ],
+  "env": {
+    "API_ID": {
+      "description": "تحصل عليه من https://my.telegram.org",
+      "value": "8934899",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "تحصل عليه من https://my.telegram.org",
+      "value": "bf3e98d2c351e4ad06946b4897374a1e",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "رمز البوت تحصل عليه من BotFather",
+      "value": "7841539389:AAFFAD_FFVRjJTeJ_SWzzYxKat87s8fYM9s",
+      "required": true
+    },
+    "MONGO_DB_URI": {
+      "description": "رابط MongoDB تحصل عليه من https://cloud.mongodb.com",
+      "value": "mongodb+srv://omsnkok:muntazer@cluster0.ywxsjao.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "ايدي المطور",
+      "value": "1490479382",
+      "required": true
+    },
+    "STRING_SESSION": {
+      "description": "جلسة Pyrogram V2 من @FreedomLoBoT",
+      "value": "BAHAsB4AbLj8SuWsn3sUeAAEc5MzhdFugl-1PWgdi4J2-Uhxi9Wi9CSAKseyydqYZlsjgghUb8h0X46zzGqfW_cSO7sr4Qoqus6EwZX3a4YtCqGi99URfQCf6-PhxujnfcAhYs1SLCuL03JmuXSoUePFyxmHqaoFhVL39a8vI5u9mQ5pyy-qkkaCJh9YK010pMgrGyYME0K-PoBvILGjFcegw9LuwKE8JneTXavVkAW5MR--rz74bZwkxLN07clmUf9hM1w0xwyI6SKKkKW8xHYAjL6nt3A-SZUsCP0DaXC1WRE99gQFVmp1j-pxTUDsxzpfGxq_8QHVKQ-9whid2XpGYB-NpQAAAAHh8bwwAA",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "مفتاح حسابك في هيروكو",
+      "value": "",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم تطبيقك على هيروكو",
+      "value": "",
+      "required": true
+    },
+    "LOGGER_ID": {
+      "description": "معرف مجموعة تسجيل الدخول (لوق)، لازم تضيف البوت أدمن فيها",
+      "value": "-1002577773436",
+      "required": true
+    },
+    "DURATION_LIMIT": {
+      "description": "الحد الأعلى لمدة التشغيل بالدقائق",
+      "value": "1000",
+      "required": false
+    },
+    "UPSTREAM_REPO": {
+      "description": "رابط المستودع الأساسي (GitHub)",
+      "value": "https://github.com/aesarj/u.git",
+      "required": true
+    },
+    "UPSTREAM_BRANCH": {
+      "description": "الفرع المستخدم من المستودع",
+      "value": "master",
+      "required": true
+    },
+    "GIT_TOKEN": {
+      "description": "رمز GitHub إذا كان المستودع خاص",
+      "value": "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",
+      "required": true
+    },
+    "SUPPORT_CHANNEL": {
+      "description": "رابط قناة الدعم",
+      "value": "https://t.me/xl444",
+      "required": true
+    },
+    "SUPPORT_CHAT": {
+      "description": "رابط مجموعة الدعم",
+      "value": "https://t.me/xl444",
+      "required": true
+    },
+    "AUTO_LEAVING_ASSISTANT": {
+      "description": "خليها 'True' إذا تريد البوت المساعد يطلع من المجموعات تلقائيًا",
+      "value": "",
+      "required": false
+    },
+    "CHANNEL_SUDO": {
+      "description": "قناة الإشتراك الاجباري بدون @",
+      "value": "xl444",
+      "required": true
+    },
+    "START_IMG_URL": {
+      "description": "رابط صورة الستارت",
+      "value": "https://envs.sh/LLB.jpg",
+      "required": true      
+    },
+    "YAFA_NAME": {
+      "description": "اسم القناة المستخدم في ردود البوت",
+      "value": ". Source Al-Moussawi .",
+      "required": true
+    },
+    "YAFA_CHANNEL": {
+      "description": "قناة البوت",
+      "value": "https://t.me/xl444",
+      "required": true
+    },
+    "SUPPORT_GROUP": {
+      "description": "رابط مجموعة الدعم",
+      "value": "https://t.me/xl444",
+      "required": true
+    },
+    "BOT_USERNAME": {
+      "description": "اسم المستخدم الخاص بالبوت (بدون @)",
+      "value": "صاتع بوتات",
+      "required": true
+    },
+    "OWNER": {
+      "description": "معرف المالك الأساسي (احتياطي)",
+      "value": "1490479382",
+      "required": true
+    },
+    "SOURCE_PHOTO": {
+      "description": "رابط صورة السورس المستخدمة في أمر /السورس",
+      "value": "https://graph.org/file/2c3533c3282f7b809184c.jpg",
+      "required": true
+    },
+    "DEV_URL": {
+      "description": "رابط المطور في زر ⦗ Dev ⦘",
+      "value": "https://t.me/RR8R9",
+      "required": true
+    },
+    "UPDATES_URL": {
+      "description": "رابط قناة التحديثات في زر ⦗ Updates ⦘",
+      "value": "https://t.me/vvyvv6",
+      "required": true
+    },
+    "SUPPORT_URL": {
+      "description": "رابط الدعم في زر ⦗ Support ⦘",
+      "value": "https://t.me/Xl444",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    },
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+    }
+  ],
+  "stack": "container"
+}
