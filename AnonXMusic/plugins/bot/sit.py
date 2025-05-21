@@ -10,7 +10,7 @@ from config import SOURCE_PHOTO, DEV_URL, UPDATES_URL, SUPPORT_URL
 async def mak(client: Client, message: Message):
     await message.reply_photo(
         photo=SOURCE_PHOTO,
-        caption="𝙨𝙤𝙪𝙧𝙘𝙚 𝙖𝙡 𝙢𝙤𝙪𝙨𝙨𝙖𝙬𝙡 \n~ Dav .",
+        caption="𝐒𝐎𝗨𝐑𝐂𝐄 𝐏𝐀𝐑𝐈𝐒\n~ Dav .",
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("⦗ Dev ⦘", url=DEV_URL)],
