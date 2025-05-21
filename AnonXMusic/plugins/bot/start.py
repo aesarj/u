@@ -26,7 +26,7 @@ async def start_(c: Client, message: Message):
                    InlineKeyboardButton(text="‹ الاوامر ›", callback_data="command_list")
                ],
                [
-                   InlineKeyboardButton(text="‹ 𝙨𝙤𝙪𝙧𝙘𝙚 𝙖𝙡 𝙢𝙤𝙪𝙨𝙨𝙖𝙬𝙡 ›", url=SUPPORT_CHANNEL),
+                   InlineKeyboardButton(text="𝐒𝐎𝗨𝐑𝐂𝐄 𝐏𝐀𝐑𝐈𝐒", url=SUPPORT_CHANNEL),
                    InlineKeyboardButton(text="‹ مطور البوت ›", user_id=int(OWNER)),
                ],
                [
@@ -54,11 +54,11 @@ async def start_set(_, query: CallbackQuery):
                    InlineKeyboardButton(text="‹ الاوامر ›", callback_data="command_list")
                ],
                [
-                   InlineKeyboardButton(text="‹ 𝙨𝙤𝙪𝙧𝙘𝙚 𝙖𝙡 𝙢𝙤𝙪𝙨𝙨𝙖𝙬𝙡 ›", url=SUPPORT_CHANNEL),
+                   InlineKeyboardButton(text="𝐒𝐎𝗨𝐑𝐂𝐄 𝐏𝐀𝐑𝐈𝐒", url=SUPPORT_CHANNEL),
                    InlineKeyboardButton(text="‹ مطور البوت ›", user_id=int(OWNER)),
                ],
                [
-                   InlineKeyboardButton(text="‹ لتنصيب بوت مماثل ›", url="https://t.me/YlYYU"),
+                   InlineKeyboardButton(text="‹ لتنصيب بوت مماثل ›", url="https://t.me/F_Q_1"),
                ],
                [
                    InlineKeyboardButton(text="‹ اضف البوت الى مجموعتك ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
