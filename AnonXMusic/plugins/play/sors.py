@@ -17,15 +17,15 @@ async def mak(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "⦗ Dev ⦘", url="https://t.me/YlYYU"
+                        "⦗ Dev ⦘", url="https://t.me/F_Q_1"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "⦗ Updates ⦘", url="https://t.me/UUU10K"
+                        "⦗ Updates ⦘", url="https://t.me/y_9ame"
                     ),
                     InlineKeyboardButton(
-                        "⦗ support ⦘", url="https://t.me/PT_XV"
+                        "⦗ support ⦘", url="https://t.me/sorce_paris"
                     ),
                 ],
             ]
