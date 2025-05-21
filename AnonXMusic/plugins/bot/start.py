@@ -16,7 +16,7 @@ async def start_(c: Client, message: Message):
    await add_served_user(user_id)
    await message.reply_photo(
        photo=START_IMG_URL,
-       caption=f"""اهلا بك انا بۅت اسمي الموسوي.
+       caption=f"""اهلا بك في بوت ميوزك باريس.
 يمڪنني تشغيل الموسيقى في الاتصال .
 ادعم التشغيل في الكروبات والقنوات .
 ⎯ ⎯ ⎯ ⎯""",
@@ -30,7 +30,7 @@ async def start_(c: Client, message: Message):
                    InlineKeyboardButton(text="‹ مطور البوت ›", user_id=int(OWNER)),
                ],
                [
-                   InlineKeyboardButton(text="‹ لتنصيب بوت مماثل ›", url="https://t.me/YlYYU"),
+                   InlineKeyboardButton(text="‹ لتنصيب بوت مماثل ›", url="https://t.me/F_Q_1"),
                ],
                [
                    InlineKeyboardButton(text="‹ اضف البوت الى مجموعتك ›", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")
@@ -44,7 +44,7 @@ async def start_(c: Client, message: Message):
 async def start_set(_, query: CallbackQuery):
    await query.answer("الرئيسية")
    await query.edit_message_text(
-       f"""اهلا بك انا بۅت اسميي الموسوي .
+       f"""اهلا بك في بوت ميوزك باريس.
 يمڪنني تشغيل الموسيقى في الاتصال .
 ادعم التشغيل في الكروبات والقنوات .
 ⎯ ⎯ ⎯ ⎯""",
