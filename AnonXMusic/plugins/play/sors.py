@@ -12,7 +12,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 async def mak(client: Client, message: Message):
     await message.reply_photo(
         photo="https://envs.sh/Zow.jpg",
-        caption="~ Team Al-Moussawi \n~ Dav Source",
+        caption="𝐒𝐎𝗨𝐑𝐂𝐄 𝐏𝐀𝐑𝐈𝐒\n~ Dav Source",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
